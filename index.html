@@ -1,286 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Resume</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <title>Resume</title>
-</head>
-
-<body>
-  <div class="container">
-    <header id="main-header">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-md-5">
-          <img src="img/portrait1.jpg" alt="" />
-        </div>
-        <div class="col-lg-8 col-md-7">
-          <div class="d-flex flex-column">
-            <div class="p-5 bg-dark1">
-              <div class="d-flex flex-row justify-content-between align-items-center">
-                <h1 class="display-4">Tania Habrusieva</h1>
-                <div class="d-none d-md-block">
-                  <a href="https://www.linkedin.com/feed/" class="text-dark">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
+  <body>
+    <div class="container">
+      <header id="main-header">
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-md-5">
+            <img src="img/portrait1.jpg" alt="" />
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="d-flex flex-column">
+              <div class="p-5 bg-dark1">
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <h1 class="display-4">Tania Habrusieva</h1>
+                  <div class="d-none d-md-block">
+                    <a
+                      href="https://www.linkedin.com/in/tania-habrusieva-1910aa18b/"
+                      class="text-dark"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </div>
+                  <div class="d-none d-md-block">
+                    <a href="https://github.com/" class="text-dark">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
                 </div>
-                <div class="d-none d-md-block">
-                  <a href="https://github.com/" class="text-dark">
-                    <i class="fab fa-github"></i>
-                  </a>
+              </div>
+
+              <div class="p-4 bg-black lead">
+                Front-end Web Developer
+              </div>
+
+              <div>
+                <div
+                  class="d-flex flex-row text-white align-items-stretch text-center"
+                >
+                  <div
+                    class="port-item p-4 bg-primary1"
+                    data-toggle="collapse"
+                    data-target="#home"
+                  >
+                    <i class="fas fa-home fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Home</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-success1"
+                    data-toggle="collapse"
+                    data-target="#resume"
+                  >
+                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Resume</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-danger1"
+                    data-toggle="collapse"
+                    data-target="#contact"
+                  >
+                    <i class="fas fa-envelope fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Contact</span>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="p-4 bg-black lead">
-              Front-end Web Developer
-            </div>
-
-            <div>
-              <div class="d-flex flex-row text-white align-items-stretch text-center">
-                <div class="port-item p-4 bg-primary1" data-toggle="collapse" data-target="#home">
-                  <i class="fas fa-home fa-2x d-block"></i>
-                  <span class="d-none d-sm-block">Home</span>
-                </div>
-                <div class="port-item p-4 bg-success1" data-toggle="collapse" data-target="#resume">
-                  <i class="fas fa-graduation-cap fa-2x d-block"></i>
-                  <span class="d-none d-sm-block">Resume</span>
-                </div>
-                <div class="port-item p-4 bg-danger1" data-toggle="collapse" data-target="#contact">
-                  <i class="fas fa-envelope fa-2x d-block"></i>
-                  <span class="d-none d-sm-block">Contact</span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <!-- home -->
-    <div id="home" class="collapse show">
-      <div class="card card-body bg-primary1 text-white py-5">
-        <h2>Welcome to my page</h2>
-      </div>
+      <!-- home -->
+      <div id="home" class="collapse show">
+        <div class="card card-body bg-primary1 text-white py-5">
+          <h2>Welcome to my page</h2>
+        </div>
 
-      <div class="card card-body py-5">
-        <h3>Summary</h3>
-        <p>
-          I, Tania, am 28 years old. I'm looking for a Front-end developer job. I gained my knowledge while taking courses on Udemy. I have experience with HTML and CSS. I'm currently studying React and JavaScript and am working on creating a site for Habrusiev Consulting.</p>
-        <p>
-          I am a very responsible worker and enthusiastic about working, learning and getting new work experience.
-        </p>
-      </div>
-
-      <div class="card card-body py-5">
-        <h3>Skills</h3>
-        <hr />
-        <h4>HTML 5</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-dark1" style="width: 70%"></div>
+        <div class="card card-body py-5">
+          <h3>Summary</h3>
+          <p>
+            I, Tania, am 28 years old. I'm looking for a Front-end developer
+            job. I gained my knowledge while taking courses on Udemy. I have
+            experience with HTML and CSS. I'm currently studying React and
+            JavaScript and am working on creating a site for Habrusiev
+            Consulting.
+          </p>
+          <p>
+            I am a very responsible worker and enthusiastic about working,
+            learning and getting new work experience.
+          </p>
         </div>
-        <h4>CSS 3</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-dark1" style="width: 70%"></div>
-        </div>
-        <h4>Bootstrap</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-dark1" style="width: 60%"></div>
-        </div>
-        <h4>JavaScript</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-dark1" style="width: 25%"></div>
-        </div>
-        <h4>React</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-dark1" style="width: 25%"></div>
-        </div>
-      </div>
-
-      <div class="card card-body py-5">
-        <h3>Languages</h3>
-        <hr />
-        <h4>English</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-dark1" style="width: 35%"></div>
-        </div>
-        <h4>Germany</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-dark1" style="width: 15%"></div>
-        </div>
-      </div>
-
-      <div class="card card-body py-5">
-        <h3>Interests</h3>
-        <ul>
-          <li>
-            Lettering
-          </li>
-          <li>
-            Simple drawing
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Resume -->
-    <div id="resume" class="collapse">
-      <div class="card card-body bg-success1 text-white py-5">
-        <h2>My resume</h2>
-      </div>
-
-      <div class="card card-body py-5">
-        <h3>Work Experience</h3>
-        <div class="card-deck">
-          
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Front-End Developer</h4>
-              <p class="card-text">Habrusiev Consulting</p>
-              <ul>
-                <li>
-                  Designing and developing personal web site
-                </li>
-                <li>
-                  Designing and developing web site and branding for <em>“Habrusiev Consulting”</em>
-                </li>
-                <li>
-                  Assisting with client projects
-                </li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <h6 class="text-muted">Dates: 2019</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card card-body py-5">
-        <h3>Education</h3>
-        <div class="card-deck">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Student</h4>
-              <p class="card-text">Terebovlya Gymnasium</p>
-            </div>
-            <div class="card-footer">
-              <h6 class="text-muted">Dates: 2006 - 2008</h6>
-            </div>
+        <div class="d-flex flex-row">
+          <div class="card card-body py-5 col-md-4">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS 3</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
           </div>
 
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Student</h4>
-              <p class="card-text">
-                  Ternopil Volodymyr Hnatyuk National Pedagogical University
-              </p>
-            </div>
-            <div class="card-footer">
-              <h6 class="text-muted">Dates: 2008 - 2013</h6>
-            </div>
+          <div class="card card-body py-5 col-md-4">
+            <h3>Languages</h3>
+            <ul>
+              <li>English</li>
+              <li>Germany</li>
+            </ul>
           </div>
-        </div>
-      </div>
 
-      <div class="card card-body py-5">
-        <h3>Certification</h3>
-        <div class="card-deck">
-          <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Student</h4>
-            <p class="card-text">Courses on Udemy</p>
+          <div class="card card-body py-5 col-md-4">
+            <h3>Interests</h3>
             <ul>
               <li>
-                Bootstrap 4 From Scratch With 5 Projects from <em>Brad Traversy</em>
+                Lettering
               </li>
               <li>
-                The Complete JavaScript Course 2019: Build Real Projects! from <em>Jonas Schmedtmann</em>
-              </li>
-              <li>
-                React Front To Back from <em>Brad Traversy</em>
+                Simple drawing
               </li>
             </ul>
           </div>
-          <div class="card-footer">
-            <h6 class="text-muted">Dates: 2018 - 2019</h6>
+        </div>
+      </div>
+
+      <!-- Resume -->
+      <div id="resume" class="collapse">
+        <div class="card card-body bg-success1 text-white py-5">
+          <h2>My resume</h2>
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>Work Experience</h3>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Front-End Developer</h4>
+                <p class="card-text">Habrusiev Consulting</p>
+                <ul>
+                  <li>
+                    Designing and developing personal web site
+                  </li>
+                  <li>
+                    Designing and developing web site and branding for
+                    <em>“Habrusiev Consulting”</em>
+                  </li>
+                  <li>
+                    Assisting with client projects
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2019</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>Education</h3>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Student</h4>
+                <p class="card-text">Terebovlya Gymnasium</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2006 - 2008</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Student</h4>
+                <p class="card-text">
+                  Ternopil Volodymyr Hnatyuk National Pedagogical University
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2008 - 2013</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>Certification</h3>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Student</h4>
+                <p class="card-text">Courses on Udemy</p>
+                <ul>
+                  <li>
+                    Bootstrap 4 From Scratch With 5 Projects from
+                    <em>Brad Traversy</em>
+                  </li>
+                  <li>
+                    The Complete JavaScript Course 2019: Build Real Projects!
+                    from <em>Jonas Schmedtmann</em>
+                  </li>
+                  <li>React Front To Back from <em>Brad Traversy</em></li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2018 - 2019</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- contact -->
+      <div id="contact" class="collapse">
+        <div class="card card-body bg-danger1 text-white py-5">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>Contact Details</h3>
+
+          <div>
+            <p><i class="fas fa-user"></i> Tania Habrusieva</p>
+          </div>
+          <div>
+            <p><i class="fas fa-map-marker-alt"></i> Lviv, Ukraine</p>
+          </div>
+          <div>
+            <p><i class="fas fa-envelope"></i> tetianahabrusieva@gmail.com</p>
+          </div>
+          <div>
+            <p><i class="fab fa-skype"></i> live:taniahabrusieva</p>
+          </div>
+        </div>
       </div>
 
+      <!-- footer -->
+      <footer id="main-footer" class="p-5 bg-dark1">
+        <div class="row">
+          <div class="col-md-6">
+            <a
+              href="https://paper.dropbox.com/doc/Tetiana-Habrusieva--AiEofFVeaQJ7jZcdBBsmKFZSAQ-gvMHijCqd7KefQTZScP1C"
+              class="btn btn-outline-dark"
+            >
+              <i class="fas fa-cloud"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    <!-- contact -->
-    <div id="contact" class="collapse">
-      <div class="card card-body bg-danger1 text-white py-5">
-        <h2>Contact</h2>
-      </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
-      <div class="card card-body py-5">
-        <h3>Contact Details</h3>
+    <script>
+      $(".port-item").click(function() {
+        $(".collapse").collapse("hide");
+      });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-144821911-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        <div>
-          <p><i class="fas fa-user"></i> Tania Habrusieva</p>
-        </div>
-        <div>
-          <p><i class="fas fa-map-marker-alt"></i> Lviv, Ukraine</p>
-        </div>
-        <div>
-          <p><i class="fas fa-envelope"></i> tetianahabrusieva@gmail.com</p>
-        </div>
-        <div>
-          <p><i class="fab fa-skype"></i> live:taniahabrusieva</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- footer -->
-    <footer id="main-footer" class="p-5 bg-dark1">
-      <div class="row">
-        <div class="col-md-6">
-          <a href="https://paper.dropbox.com/doc/Tetiana-Habrusieva--AiEofFVeaQJ7jZcdBBsmKFZSAQ-gvMHijCqd7KefQTZScP1C"
-            class="btn btn-outline-dark">
-            <i class="fas fa-cloud"></i> Download Resume
-          </a>
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-
-  <script>
-    $(".port-item").click(function () {
-      $(".collapse").collapse("hide");
-    });
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144821911-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "UA-144821911-1");
-  </script>
-</body>
-
+      gtag("config", "UA-144821911-1");
+    </script>
+  </body>
 </html>
