@@ -1,0 +1,25 @@
+{
+  "name": "taniahabrusieva.github.io",
+  "version": "1.0.0",
+  "description": "https://taniahabrusieva.github.io",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "2.1.1",
+    "stylelint": "^13.7.1",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taniahabrusieva/taniahabrusieva.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taniahabrusieva/taniahabrusieva.github.io/issues"
+  },
+  "homepage": "https://github.com/taniahabrusieva/taniahabrusieva.github.io#readme"
+}
