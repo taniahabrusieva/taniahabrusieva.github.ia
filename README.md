@@ -12,7 +12,7 @@ Built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://
 2. Install dependencies.
 
 ```sh
-bundle install
+$ bundle install
 ```
 
 ### Building locally
